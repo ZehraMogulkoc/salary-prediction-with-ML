@@ -20,31 +20,29 @@ Correlation analysis
 <br/>
 HOLD OUT - MODEL VALIDATION - BASE MODELS
 <br/>
-
+| name          | RMSE_TRAIN    | RMSE_TEST  |
+| ------------- |:-------------:| -----:     |
+| CatBoost   |4.970   | 237.712   |
+| XGBoost    |0.001   | 256.239   |
+| LightGBM   |51.394  | 259.164   |
+| RF   |62.387  | 260.609   |
+| GBM   | 30.648  | 262.679  |
+| KNN   |  167.550  | 268.997 |
+| CART       |0.000    |314.222|
+ | ElasticNet     |202.308    |328.042|
+ |    Lasso     |200.520    332.650|
+|   Ridge    | 199.917    |333.875|
+  |   SVR     |315.167   | 336.098|
+|   LR     |198.591   | 336.352|
 <br/>
-          name  RMSE_TRAIN  RMSE_TEST
-          <br/>
-*   CatBoost       4.970    237.712
-*     XGBoost       0.001    256.239
-*    LightGBM      51.394    259.164
-*           RF      62.387    260.609
-*         GBM      30.648    262.679
-*         KNN     167.550    268.997
-*        CART       0.000    314.222
-*   ElasticNet     202.308    328.042
-*       Lasso     200.520    332.650
-*       Ridge     199.917    333.875
-*         SVR     315.167    336.098
-*          LR     198.591    336.352
-<br/>
-
+              
 RANDOM FORESTS MODEL TUNING
 
 <br/>
 RF Tuned Model Train RMSE: 99.69754579820678
 <br/>
 RF Tuned Model Test RMSE: 155.72263111886258
-<br/>
+<br/
 
 FEATURE IMPORTANCE
 <br/>
